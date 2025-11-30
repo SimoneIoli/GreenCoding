@@ -1,0 +1,31 @@
+body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+}
+.inizio {
+    background-color: blue;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.speciale {
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+.speciale >* {
+    color: blue;
+    margin: 10px;
+    background-color: aqua;
+    padding: 20px;
+}
+/*Stilizza il footer*/
+footer {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
