@@ -1,23 +1,23 @@
 body{
     max-width: 100%;
 }
+.d-flex {
+    display: flex;
+}
 #titolo {
     background-color: black;
     color: whitesmoke;
     margin: 0px 10px;
-    display: flex;
     justify-content: center;
     
 }
 .titoli {
-    display: flex;
     background-color: rgb(95, 93, 93); 
     margin: 0px 10px;
     align-items: center;
     justify-content: center;
 }
 .sezioni{
-    display: flex;
     text-align: center;
     justify-content: space-around;
     background-color: rgb(95, 93, 93); 
