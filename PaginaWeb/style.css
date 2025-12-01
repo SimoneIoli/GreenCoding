@@ -43,9 +43,14 @@ button{ /*Gestione dei bottoni*/
     height: 100px;
     padding: 10px;
 }
-.ultimo :hover {
-    color: white;
-}
 .descrizioni {
     list-style: none;
+}
+.centrato {
+    align-items: center;
+    
+}
+img[loading="lazy"] {
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
